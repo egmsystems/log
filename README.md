@@ -127,7 +127,7 @@ An example of custom parameters' usage:
 
 ```php
 $logger = new \Yiisoft\Log\Logger(
-    contextProvider: new Yiisoft\Log\ContextProvider\SystemContextProvider(
+    contextProvider: new \Yiisoft\Log\ContextProvider\SystemContextProvider(
         traceLevel: 3,
         excludedTracePaths: [
             '/vendor/yiisoft/di',
